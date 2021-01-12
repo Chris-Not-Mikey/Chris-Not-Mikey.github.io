@@ -43,7 +43,7 @@ function time_color(s){
 		c= 'rgb(255,153,51)'
 	}
 	else if(s >=40 && s < 45){ //blue
-		c= 'rgb(51,51,255)'
+		c= 'rgb(51,255,255)'
 	}
 	else if(s >=45 && s < 50){ //purple
 		c= 'rgb(153,51,255)'
@@ -91,7 +91,7 @@ function time_color_hour(h){
 		c= 'rgb(255,153,51)'
 	}
 	else if(h == 8 || h == 20){ //blue
-		c= 'rgb(51,51,255)'
+		c= 'rgb(51,255,255)'
 	}
 	else if(h == 9 || h == 21){ //purple
 		c= 'rgb(153,51,255)'
@@ -259,7 +259,7 @@ function draw() {
 	fill('rgb(255,153,51)')
 	square(140, 200, 20);
 
-	fill('rgb(51,51,255)')
+	fill('rgb(51,255,255)')
 	square(160, 200, 20);
 
 	fill('rgb(153,51,255)')
